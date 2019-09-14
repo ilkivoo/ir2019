@@ -59,8 +59,6 @@ if __name__ == "__main__":
                         eng_word_count += 1
 
         i += 1
-        if i > 10000:
-            break
     average_len_in_dict = 0
     for key in dictionary:
         average_len_in_dict += len(key)
